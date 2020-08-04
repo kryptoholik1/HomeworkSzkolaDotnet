@@ -64,7 +64,7 @@ namespace HomeworkWeek2Lesson4
 
             double power = Math.Pow(length, 2) + Math.Pow(width, 2);
             double diagonal = Math.Sqrt(power);
-            Console.Write(diagonal);
+            Console.WriteLine(diagonal);
 
 
         }
@@ -115,7 +115,7 @@ namespace HomeworkWeek2Lesson4
             int parsed2 = 0;
             int.TryParse(height, out parsed2);
 
-            Console.WriteLine($"({name},{surname},{email},{parsed}, {parsed1},{parsed2})");
+            Console.WriteLine($"({name}, {surname}, {email}, {parsed} years old, {parsed1}kg, {parsed2}cm)");
 
         }
 
