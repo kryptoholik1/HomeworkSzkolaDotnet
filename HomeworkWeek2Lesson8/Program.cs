@@ -149,7 +149,7 @@ namespace HomeworkWeek2Lesson8
 
         public static void Triangle()
         {
-            Console.WriteLine("Program tworzy trójkąt z liczby zwiękdzających swoją wartość o 1");
+            Console.WriteLine("Program tworzy trójkąt  z liczby zwiękdzających swoją wartość o 1");
             int number = 1;
             for (int i = 1; i <= 4; i++)
             {
