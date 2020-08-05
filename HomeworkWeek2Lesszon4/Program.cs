@@ -67,7 +67,7 @@ namespace HomeworkWeek2Lesson7
             ExcerciseTwelve();
             Console.ReadLine();
 
-            //13.Napisz program, który będzie posiadał proste menu(wg.Wzoru poniżej) I będzie prostym kalkulatorem
+           // 13.Napisz program, który będzie posiadał proste menu(wg.Wzoru poniżej) I będzie prostym kalkulatorem
             Thirteen();
             Console.ReadLine();
         }
@@ -501,10 +501,18 @@ namespace HomeworkWeek2Lesson7
                     break;
 
                 case 3:
-                    div = digitA / digitB;
-                    Console.WriteLine(div);
-                    break;
+                    if (digitB == 0)
+                    {
+                        Console.WriteLine("Nie można dzielić przez 0");
 
+                    }
+                    else
+                    {
+                        div = digitA / digitB;
+                        Console.WriteLine(div);
+                       
+                    }
+                    break;
                 case 4:
                     mult = digitA * digitB;
                     Console.WriteLine(mult);
